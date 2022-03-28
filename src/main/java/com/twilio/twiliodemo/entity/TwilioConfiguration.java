@@ -19,7 +19,6 @@ public class TwilioConfiguration {
 
     private String  accountSid;
    private String  authToken;
-  private String   trialNumber; // = "17164520628";
-
+  private String   trialNumber;
 
 }

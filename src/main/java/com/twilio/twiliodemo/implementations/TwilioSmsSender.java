@@ -33,11 +33,7 @@ public class TwilioSmsSender implements SmsSender {
         PhoneNumber to = new PhoneNumber(smsRequest.getPhoneNumber());
         PhoneNumber from  = new PhoneNumber(twilioConfiguration.getTrialNumber());
 
-       // String message = "......";
-
         String message = smsRequest.getMessage();
-
-
 
         MessageCreator creator = Message.creator(to, from, message);
         creator.create();

@@ -25,12 +25,6 @@ public TiwilioInitializer(TwilioConfiguration twilioConfiguration){
             twilioConfiguration.getAuthToken()
     );
 
-// not compaitable for now
-//    Message message = Message.creator(
-//                    new com.twilio.type.PhoneNumber("+12816901929"),
-//                    "ACd8ff9d3b0ec34e637e99068755253afd",
-//                    "Hello Friend"
-//            ).create();
 
 
     LOGGER.info("TwilioInitializer .... with twilioInitializer SID {} ", twilioConfiguration.getAccountSid());

@@ -59,17 +59,7 @@ public class TwilioSmsSenderPlayers implements SmsSender {
 //        employees.put("Asmorom", "5102690436");
 
         HashMap<String, String> soccergroup = new HashMap<String, String>();
-//        soccergroup.put("Ablelom", "2816901929");
-//        soccergroup.put("Mihreteab", "7139799738"); //
-//        soccergroup.put("Abraham", "8322742725"); // Abraham
-//        soccergroup.put("Ahmed", "6418146134"); //
-//        soccergroup.put("Methi", "7134786735"); //
-//        soccergroup.put("Antish", "8329389554"); //Anteneh
-//        soccergroup.put("Behaylu", "7135406318"); //  Behaylu
-//        soccergroup.put("Sira", "8324669527"); //  Sira Bizu
-//        soccergroup.put("Abubeker", "8325263021"); // Abubeker
-//        soccergroup.put("Senai", "8322872881"); // Senai Keren
-//        soccergroup.put("Dave", "8325660617"); //Dawit checker
+
 
 //        soccergroup.put("Abnet", ""); //  //Abnet
 //
@@ -81,14 +71,7 @@ public class TwilioSmsSenderPlayers implements SmsSender {
 
 
         HashMap<String, String> itGroup = new HashMap<String, String>();
-//        employees.put("Ablelom", "2816901929");
-//        employees.put("Mihreteab", "7139799738");
-//        employees.put("Abraham", "8322742725");
-//        employees.put("Ahmed", "6418146134");
-//        employees.put("Methi", "");
-//        employees.put("Anteneh", "");
-//        employees.put("Behaylu", "7135406318");
-//        employees.put("Sirabizu", "");
+
 
 
                 Connection connection = null; // = Boolean.parseBoolean(null);
